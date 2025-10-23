@@ -11,10 +11,10 @@
     text-align: center;
     margin-top: 0.75em;
     margin-bottom: 0.75rem;
-    font-size: 5.5vw;
+    font-size: clamp(1rem, 2.5vw, 3rem);
 }
 #time-line-text {
-    font-size: 4vw;
+    font-size:  3vw;
     margin-left: 10vw;
     border: 2px solid red;
     /* margin-top: 5rem; */
@@ -35,7 +35,6 @@
     border: 2px solid red;
     display: grid;
     grid-template-columns: 35% 10px 60%;
-    /* font-family: 1vw; */
 }
 
 .time-line div {
@@ -56,7 +55,6 @@
     gap: 3.5rem;
 }
 
-/* .missions-links div  */
 .missions-links {
     gap: 2rem;
     /* margin-left: -3rem; */
@@ -72,30 +70,81 @@
 .missions-links button {
     background-color: #D0AAAA;
     border-radius: 16px ;
-    padding: 0.2em 2.7em;
-    font-size: 3vw;
-    width: 40vw;
+    padding: auto;
+    font-size: clamp(1rem, 2.5vw, 3rem);
+    width: 35vw;
+    padding: 0.1em 0;
 }
 .missions-links a {
     text-decoration: none;
     color: black;
 }
 
+.historical-missions {
+    margin-top: 2rem;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.historical-missions div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border: 2px solid green;
+    margin: 0 auto;
+    padding: 2vw;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    width: 270px;
+    height: 270px;
+}
+
+    
+    
+
+.historical-missions p {
+    font-family: 600;
+    line-height: 1.4em;
+    /* margin: 0 5rem; */
+}
+
+.hist-missions h3{
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    font-family: 700;
+    font-size: 2rem;
+}
+
 @media screen and (min-width: 700px) {
-    .missions-links button { 
+    /*.missions-links button { 
         width: 35vw;
     }
     .explore-missions h1 {
         font-size: 4.5vw;
     }
     #time-line-text {
-        font-size: 3.4vw;
-    }
+         font-size: 3.4vw;
+    }*/
+    
     .missions-links {
         gap: 1rem;
     }
     .explore-missions h1 {
         margin: 0 0;
     }
-}
 
+    .historical-missions {
+        flex-direction: row;
+        justify-content: space-around;
+        /* gap: 5rem; */
+    }
+}
