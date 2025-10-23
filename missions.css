@@ -1,6 +1,7 @@
+
 .explore-missions {
     margin-top: 7rem;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* height: 400px; */
     background-image: url("pictures/missions/galaxy.jpeg");
     /* background-size: cover; */
@@ -11,35 +12,26 @@
     text-align: center;
     margin-top: 0.75em;
     margin-bottom: 0.75rem;
-    font-size: clamp(1rem, 2.5vw, 3rem);
+    font-size: 5vw;   /*fixed*/
 }
 #time-line-text {
-    font-size:  3vw;
+    font-size:  1.2rem;
     margin-left: 10vw;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* margin-top: 5rem; */
+}
+
+.time-line {
+    margin-top: 2em;
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: 25% 10px 60%;
 }
 
 .time-line-middle {
     background-color: #D0AAAA;
     height: 100%;
     width: 2.5vw;
-    /* margin-top: 2vh; */
-}
-
-.time-line {
-    /* align-items: center; */
-    margin-top: 2em;
-    /* margin-left: 7em; */
-    /* margin-right: 10em; */
-    border: 2px solid red;
-    display: grid;
-    grid-template-columns: 35% 10px 60%;
-}
-
-.time-line div {
-    /* border: 2px solid red; */
-    font-size: 3vw;
 }
 
 .missions-links img {
@@ -57,7 +49,6 @@
 
 .missions-links {
     gap: 2rem;
-    /* margin-left: -3rem; */
 }
 .missions-links div {
     display: flex;
@@ -71,18 +62,40 @@
     background-color: #D0AAAA;
     border-radius: 16px ;
     padding: auto;
-    font-size: clamp(1rem, 2.5vw, 3rem);
-    width: 35vw;
-    padding: 0.1em 0;
+    font-size: 0.9rem;
+    width: 40vw;
+    /* padding: 0.1em 0; */
 }
+
+.time-line-left p {
+    font-size: 1rem;
+}
+
 .missions-links a {
     text-decoration: none;
     color: black;
 }
 
-.historical-missions {
+/* ====================2nd */
+
+.section-title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+}
+
+.section-title img {
+    width: 30px;
+    height: 30px;
+    /* border: 2px solid red; */
+}
+
+.missions-cards {
     margin-top: 2rem;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -90,13 +103,13 @@
     gap: 1.6rem;
 }
 
-.historical-missions div {
+.missions-cards div {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     margin: 0 auto;
     padding: 2vw;
     background-color: black;
@@ -111,38 +124,42 @@
     
     
 
-.historical-missions p {
+.missions-cards p {
     font-family: 600;
     line-height: 1.4em;
     /* margin: 0 5rem; */
 }
 
-.hist-missions h3{
-    margin-top: 1rem;
-    margin-left: 1.5rem;
-    font-family: 700;
-    font-size: 2rem;
+section div h3 {
+    font-size: 1.5rem;
 }
 
 @media screen and (min-width: 700px) {
-    /*.missions-links button { 
-        width: 35vw;
+    /* adjust fonts  */
+    section div h3 {
+        font-size: 2.3rem;
     }
     .explore-missions h1 {
-        font-size: 4.5vw;
+        font-size: 2.7rem;
     }
-    #time-line-text {
-         font-size: 3.4vw;
-    }*/
-    
+    .missions-links button {
+        font-size: 2.5vw;
+    }
+    .time-line-left p {
+       font-size: 2rem;
+    }
     .missions-links {
         gap: 1rem;
     }
+    #time-line-text {
+       font-size: 2rem;
+    }
+
     .explore-missions h1 {
         margin: 0 0;
     }
 
-    .historical-missions {
+    .missions-cards {
         flex-direction: row;
         justify-content: space-around;
         /* gap: 5rem; */

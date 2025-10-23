@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="missions.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
     <title>Cosmic Explore</title>
 </head>
 <body>
-
     <header>
         <nav class="nav-wrap">
             <img src="pictures/logo.jpg" alt="">
@@ -60,24 +62,25 @@
             <div class = "missions-links">
                 <div>
                     <img src="pictures/missions/rocket.png" alt="">
-                    <button><a href="sec1">Hello world</a href="sec1"> </button>
+                    <button><a href="#historical-missions">Historical missions</a href="sec1"> </button>
                 </div>
                 <div>
                     <img src="pictures/missions/rocket.png" alt="">
-                    <button><a href="sec1">Hello world</a href="sec1"> </button>
+                    <button><a href="#current-missions">Current missions</a href="sec1"> </button>
                 </div>
                 <div>
                     <img src="pictures/missions/rocket.png" alt="">
-                    <button><a href="sec1">Hello world</a href="sec1"> </button>
+                    <button><a href="#future-missions">Future missions</a href="sec1"> </button>
                 </div>
             </div>
         </div>
     </section>
-    <section class ="hist-missions">
-        <div>
+    <section id ="historical-missions">
+        <div class = "section-title">
+            <img src="pictures/missions/headerIcon.png" alt="">
             <h3>historical-missions</h3>
         </div>
-        <div class = "historical-missions">
+        <div class = "missions-cards">
             <div>
                 <img src="pictures/missions/mission1.png" alt="">
                 <h4>Apollo11(1969)</h4>
@@ -94,7 +97,53 @@
                 <p>A powerful space telescope orbiting Earth that captured breathtaking images of galaxies, nebulae, and distant stars, transforming our view of the universe.</p>
             </div>
         </div>
-    
+    </section>
+    <section id ="current-missions">
+        <div class = "section-title">
+            <img src="pictures/missions/headerIcon.png" alt="">
+            <h3>current missions</h3>
+        </div>
+        <div class = "missions-cards">
+            <div>
+                <img src="pictures/missions/mission4.png" alt="">
+                <h4> James Webb Space Telescope (2021)</h4>
+                <p>The most advanced space telescope ever built, observing in infrared light to study the first galaxies, star formation, and exoplanet atmospheres.</p>
+            </div>
+            <div>
+                <img src="pictures/missions/mission5.png" alt="">
+                <h4>Parker Solar Probe (2018)</h4>
+                <p>The first spacecraft to fly through the Sun’s outer atmosphere, gathering data about solar winds and magnetic fields.</p>
+            </div>
+            <div>
+                <img src="pictures/missions/mission6.png" alt="">
+                <h4>Perseverance Rover (2021)</h4>
+                <p> NASA’s rover exploring Mars to search for signs of ancient microbial life and collect samples for future return missions.</p>
+            </div>
+        </div>
+    </section>
+    <section id ="future-missions">
+        <div class="section-title">
+            <img src="pictures/missions/headerIcon.png" alt="">
+            <h3>future missions</h3>
+        </div>
+        <div class = "missions-cards">
+            <div>
+                <img src="pictures/missions/mission7.png" alt="">
+                <h4> Artemis Program (2030s)</h4>
+                <p>NASA’s program to return astronauts to the Moon, including the first woman and person of color, and to build a long-term lunar base for future Mars missions.</p>
+            </div>
+            <div>
+                <img src="pictures/missions/mission8.png" alt="">
+                <h4>Mars Sample Return (~2030)</h4>
+                <p> Joint NASA–ESA mission aiming to bring rock and soil samples from Mars back to Earth for detailed laboratory analysis.</p>
+            </div>
+            <div>
+                <img src="pictures/missions/mission9.png" alt="">
+                <h4> LUVOIR (Concept)</h4>
+                <p>A proposed next-generation telescope designed to detect and study Earth-like exoplanets and explore the early universe in greater detail than ever before.</p>
+            </div>
+        </div>
+    </section>
 </body> 
 
 </html> 
