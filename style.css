@@ -22,6 +22,9 @@ header nav {
     align-items: center;
     gap: 1em;
 }
+select {
+    color: white;
+}
 
 .header-select {
     background-color: transparent;
