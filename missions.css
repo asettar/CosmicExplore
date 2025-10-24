@@ -1,4 +1,51 @@
 
+.banner {
+    height: 85vh;
+    margin-top: 95px;
+    background-image: url("pictures/missions/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+}
+
+.banner div {
+    margin-top: 35vh;
+    /* border: 2px solid red; */
+    margin-left: 4vh;
+    font-size: clamp(14px, 2vw, 40px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.banner div h2 {
+    font-weight: 700;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.banner div a{
+    display: inline-block;
+    background-color: white;
+    padding: 0.65rem;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-family: 600;
+    font-size: clamp(13px, 2vw, 22px);
+    margin-top: 2vh;
+    margin-left: 6vw;
+    transition: background-color 0.15s;
+}
+
+.banner div a:hover {
+    background-color: #D0AAAA;
+    color: black;
+    
+}
+
 .explore-missions {
     margin-top: 7rem;
     /* border: 2px solid red; */
@@ -77,8 +124,12 @@
     padding-top: 1vh;
     padding-bottom: 1vh;
     /* border: 2px solid red; */
+    transition: background-color 0.15s;
 }
 
+.missions-links button:hover {
+    background-color: rgb(231, 219, 219);
+}
 .missions-links img {
     width: clamp(30px, 5vw, 100px);  
 }
@@ -134,9 +185,15 @@
     color: white;
     font-size: 16px;
     text-align: center;
-    width: 270px;
-    height: 270px;
+    width: clamp(200px, 70vw, 300px) ;
+    height: clamp(230px, 45vh, 280px);
 }
+
+.missions-cards div:hover {
+    transform: translate(0px, -10px);
+    box-shadow: 10px 10px 20px #D0AAAA;
+}
+
 
     
 section {
@@ -152,6 +209,7 @@ section {
 section div h3 {
     font-size: 1.5rem;
 }
+
 
 @media screen and (min-width: 700px) {
     .missions-cards {
