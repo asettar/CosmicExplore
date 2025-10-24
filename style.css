@@ -110,7 +110,7 @@ select {
 /* stay informed section  */
 .stay-informed {
     background-image: url("pictures/home/glx.png");
-    height: 500px;
+    height: 60vh;
     background-size: cover;
     background-position: center;
     /* border: 2px solid red; */
