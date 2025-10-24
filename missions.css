@@ -210,6 +210,9 @@ section div h3 {
     font-size: 1.5rem;
 }
 
+#future-missions {
+    margin-bottom: 30px;
+}
 
 @media screen and (min-width: 700px) {
     .missions-cards {

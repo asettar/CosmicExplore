@@ -161,6 +161,7 @@ select {
     justify-content: space-around;
     margin-top: 25px;
     /* border: 2px solid red; */
+    margin-bottom: 30px;
 }
 
 .last h1 {
