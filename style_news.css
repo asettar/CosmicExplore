@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.plus-jakarta-sans-semibold {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.news_hero_section{
+    background-image: url(images/news_banner.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 40px 0;
+}
+
+.hero_div{
+    text-align: center;
+    font-size: 34px;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+
+.hero_div h2{
+    margin: 0 0 450px 0;
+}
+
+.recent_event_section{
+    width: 100%;
+    text-align: center;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background-color: #fff;
+    margin: 0 0px ;
+    padding: 0 0 0 0;
+}
+
+.recent_event_section h2{
+    font-size: 40px;
+    font-weight: 900;
+    padding: 0 0 40px 0;
+    color: #000;
+}
+
+.recent_event_cards{
+    padding: 0 150px 0 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.recent_event_card1,
+.recent_event_card2,
+.recent_event_card3,
+.recent_event_card4,
+.recent_event_card5,
+.recent_event_card6{
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px; 
+    border-radius: 30px;
+    padding: 40px 30px 0 10px;
+    margin: 0 0 0 10px;
+}
+
+.recent_event_card1{
+    padding: 70px 30px ;
+    background-image: url(images/news_card1.png) ;
+}
+
+.recent_event_card1 h3{
+    margin: 0 0 20px 0;
+    font-size: 30px;
+}
+
+.recent_event_card1 p{
+    margin: 0 0 20px 0;
+    font-size: 25px;
+}
+
+
+.recent_event_card2{
+    padding: 70px 30px ;
+    background-image: url(images/news_card2.png) ;
+}
+
+.recent_event_card2 h3{
+    margin: 0 0 20px 0;
+    font-size: 30px;
+}
+
+.recent_event_card2 p{
+    margin: 0 0 20px 0;
+    font-size: 25px;
+}
+
+.recent_event_card3{
+    padding: 70px 30px ;
+    background-image: url(images/news_card3.png) ;
+}
+
+.recent_event_card3 h3{
+    margin: 0 0 20px 0;
+    font-size: 30px;
+}
+
+.recent_event_card3 p{
+    margin: 0 0 20px 0;
+    font-size: 25px;
+}
+
+.recent_event_card4{
+    padding: 70px 30px ;
+    background-image: url(images/news_card4.png) ;
+}
+
+.recent_event_card4 h3{
+    margin: 0 0 20px 0;
+    font-size: 30px;
+}
+
+.recent_event_card4 p{
+    margin: 0 0 20px 0;
+    font-size: 25px;
+}
+
+.recent_event_card5{
+    padding: 70px 30px ;
+    background-image: url(images/news_card5.png) ;
+}
+
+.recent_event_card5 h3{
+    margin: 0 0 20px 0;
+    font-size: 30px;
+}
+
+.recent_event_card5 p{
+    margin: 0 0 20px 0;
+    font-size: 25px;
+}
+
+.recent_event_card6{
+    padding: 70px 30px ;
+    background-image: url(images/news_card6.png) ;
+}
+
+.recent_event_card6 h3{
+    margin: 0 0 20px 0;
+    font-size: 30px;
+}
+
+.recent_event_card6 p{
+    margin: 0 0 20px 0;
+    font-size: 25px;
+}
+
+.event_calendar_section{
+    width: 100%;
+    text-align: center;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background-color: #fff;
+    margin: 0 0px ;
+    padding: 0 0 0 0;
+}
+
+.event_calendar_section h2{
+    font-size: 40px;
+    font-weight: 900;
+    padding: 30px 0 40px 0;
+    color: #000;
+}
+
+.event_calendar_cards{
+    padding: 0 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.event_calendar_card{
+    color: #fff;
+    background-color: #666363;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 220px;
+    border-radius: 30px;
+    padding: 20px 10px 0 10px;
+}
+
+.event_calendar_part1{
+    width: 300px;
+    font-size: 35px;
+}
+
+.event_calendar_part2{
+    font-weight: 600;
+    font-size: 30px;
+    padding: 0 40px 0 40px;
+}
+
+.event_calendar_part2 p{
+     padding-bottom: 10px;
+}
+
+@media screen and (max-width: 700px){
+    .recent_event_cards{
+        /* padding: 0 200px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* gap: 100px; */
+        
+    }
+    .recent_event_card1,
+    .recent_event_card2,
+    .recent_event_card3,
+    .recent_event_card4,
+    .recent_event_card5,
+    .recent_event_card6{
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 350px; 
+    border-radius: 30px;
+    padding: 40px 30px 0 30px;
+    margin: 0 50px 0 0px;
+}
+.recent_event_card1 h3{
+    margin: 0 0 20px 0;
+    font-size: 22px;
+}
+
+.recent_event_card1 p{
+    margin: 0 0 20px 0;
+    font-size: 17px;
+}
+.recent_event_card2 h3{
+    margin: 0 0 20px 0;
+    font-size: 22px;
+}
+
+.recent_event_card2 p{
+    margin: 0 0 20px 0;
+    font-size: 17px;
+}
+.recent_event_card3 h3{
+    margin: 0 0 20px 0;
+    font-size: 22px;
+}
+
+.recent_event_card3 p{
+    margin: 0 0 20px 0;
+    font-size: 17px;
+}
+
+.recent_event_card4 h3{
+    margin: 0 0 20px 0;
+    font-size: 22px;
+}
+
+.recent_event_card4 p{
+    margin: 0 0 20px 0;
+    font-size: 17px;
+}
+
+.recent_event_card5 h3{
+    margin: 0 0 20px 0;
+    font-size: 22px;
+}
+
+.recent_event_card5 p{
+    margin: 0 0 20px 0;
+    font-size: 17px;
+}
+
+.recent_event_card6 h3{
+    margin: 0 0 20px 0;
+    font-size: 22px;
+}
+
+.recent_event_card6 p{
+    margin: 0 0 20px 0;
+    font-size: 17px;
+}
+}
+
+@media screen and (max-width: 700px){
+    .event_calendar_card{
+    background-color: #666363;
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    height: 190px;
+    border-radius: 30px;
+    padding: 20px 5px 0 5px;
+}
+.event_calendar_part1{
+    width: 220px;
+    font-size: 17px;
+}
+
+.event_calendar_part2{
+    font-weight: 600;
+    font-size: 17px;
+    padding: 0 10px 0 10px;
+}
+
+.event_calendar_part2 p{
+     padding-bottom: 10px;
+}
+}
