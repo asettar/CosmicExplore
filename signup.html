@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulaire d'inscription</title>
+    <link rel="stylesheet" href="signup.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- MAIN BANNER -->
+    <section class="banner" id="banner">
+      <div class="banner-overlay"></div>
+      <div class="banner-content">
+        <h1>Join Our Community</h1>
+        <p>
+          Sign up today and start your journey among the stars. Connect, learn,
+          and explore with passionate space enthusiasts.
+        </p>
+        <a href="#signUp"><button class="btn">Sign Up</button></a>
+      </div>
+    </section>
+
+    <div class="container" id="signUp">
+      <div class="form-wrapper">
+        <form action="#" method="POST">
+          <div class="grid">
+            <div class="field full">
+              <label for="first-name">First Name</label>
+              <input type="text" id="first-name" name="first-name" />
+            </div>
+            <div class="field full">
+              <label for="last-name">Last Name</label>
+              <input type="text" id="last-name" name="last-name" />
+            </div>
+            <div class="field full">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" />
+            </div>
+            <div class="field full">
+              <label for="location">Location</label>
+              <input type="text" id="location" name="location" />
+            </div>
+          </div>
+
+          <div class="section">
+            <h3>Experience Level</h3>
+            <div class="options">
+              <label
+                ><input type="radio" name="experience" value="debutant" />
+                Beginner</label
+              >
+              <label
+                ><input type="radio" name="experience" value="intermediaire" />
+                Intermediate</label
+              >
+              <label
+                ><input type="radio" name="experience" value="expert" />
+                Expert</label
+              >
+            </div>
+          </div>
+
+          <div class="section">
+            <h3>Areas of Interest</h3>
+            <div class="options-grid">
+              <label
+                ><input
+                  type="checkbox"
+                  name="interests[]"
+                  value="astrophysique"
+                />
+                Astrophysics</label
+              >
+              <label
+                ><input type="checkbox" name="interests[]" value="cosmologie" />
+                Cosmology</label
+              >
+              <label
+                ><input type="checkbox" name="interests[]" value="randonnee" />
+                Hiking</label
+              >
+              <label
+                ><input type="checkbox" name="interests[]" value="astronomie" />
+                Astronomy Observation</label
+              >
+              <label
+                ><input type="checkbox" name="interests[]" value="histoire" />
+                History of Humanity</label
+              >
+              <label
+                ><input
+                  type="checkbox"
+                  name="interests[]"
+                  value="technologie"
+                />
+                Space Technology</label
+              >
+            </div>
+          </div>
+
+          <div class="section">
+            <h3>Subscription Option</h3>
+            <div class="options">
+              <label
+                ><input type="radio" name="subscription" value="gratuit" />
+                Free</label
+              >
+              <label
+                ><input type="radio" name="subscription" value="premium" />
+                Premium (5€/mois)</label
+              >
+              <label
+                ><input type="radio" name="subscription" value="familial" />
+                Premium (15€/mois)</label
+              >
+            </div>
+          </div>
+
+          <div class="checkbox-field">
+            <input type="checkbox" id="terms" name="terms" />
+            <label for="terms">I agree to all terms and conditions</label>
+          </div>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
