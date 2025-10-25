@@ -307,6 +307,7 @@ button:hover {
   text-decoration: underline;
 }
 
+/* version desktop */
 @media (min-width: 1024px) {
   .support-methods {
     flex-direction: row; 
