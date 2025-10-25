@@ -13,6 +13,9 @@ header {
     z-index: 1000000;
 }
 
+.last {
+    color: white;
+}
 header nav {
     display: flex;
     justify-content: space-between;
