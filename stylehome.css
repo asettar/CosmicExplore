@@ -1,0 +1,571 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  font-size: 16px;
+  height: 100%;
+  background-color: black;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.background-video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  background-position: center;
+}
+
+.background-video video {
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  object-fit: cover;
+}
+
+.banner-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.bannercontenthome {
+  position: relative;
+  z-index: 1;
+
+}
+
+.bannnercontenthome h1 {
+  font-size: 2.3em;
+  color: white;
+  font-family: 'Odibee Sans', cursive;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px 8px rgb(255, 255, 255);
+}
+
+.bannnercontenthome p {
+  font-size: 1.2em;
+  color: white;
+  margin-bottom: 2rem;
+
+}
+
+.bannnercontenthome a {
+  padding: 0.8rem 1.5rem;
+  background: rgba(1, 1, 1, 0);
+  border: 0.1rem solid white;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 50rem;
+  text-decoration: none;
+}
+
+.bannnercontenthome a:hover {
+
+  background: white;
+  color: black;
+}
+
+
+
+
+
+.titrediv {
+  font-size: 1.5em;
+  color: white;
+  font-family: 'Odibee Sans', cursive;
+  margin-left: 15%;
+  margin-bottom: 2%;
+}
+
+.divshadowMars {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  border-radius: 50px;
+  border: white solid 0.2rem;
+  align-items: center;
+  gap: 20px;
+  padding: 1rem 1rem;
+  width: 60%;
+  height: 100%;
+  margin-left: 20%;
+}
+
+.divshadowhomeimage {
+  width: 45%;
+  height: 90%;
+  border-radius: 50px;
+}
+
+.divshadowhomeimage img {
+
+  border-radius: 30px;
+
+}
+
+.divshadowhometext {
+  background-color: white;
+  border-radius: 30px;
+  padding: 1rem;
+  transition: 0.3s;
+  width: 45%;
+  height: 90%;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+.divshadowhometext h3 {
+  margin-top: 0;
+  font-size: 1.4em;
+  font-weight: 600;
+  color: black;
+}
+
+.divshadowhometext p {
+  color: black;
+  font-size: 0.9em;
+  padding-top: 10%;
+  line-height: 1.5rem;
+}
+
+.titreevent {
+  color: black;
+  font-family: 'Odibee Sans', cursive;
+}
+
+.titreevent h2 {
+  font-size: 2.5em;
+  margin-left: 40%;
+  padding-top: 2%;
+
+}
+
+.sectionevent {
+  background-color: white;
+}
+
+.cardsEvenements {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  background-color: white;
+  justify-content: space-around;
+  padding: 1rem 1rem;
+}
+
+.cardEvenement {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+  width: 60vh;
+  height: 60vh;
+  padding: 1rem 1rem;
+  background-color: black;
+}
+
+.cardEvenement h3 {
+  font-size: 1em;
+  color: white;
+}
+
+.cardEvenement p {
+  color: white;
+  font-size: 1em;
+  padding-top: 20%;
+  line-height: 1.5rem;
+}
+
+#cart1 {
+  background-image: url('image/images (1).jpg');
+  background-position: center;
+  background-size: cover;
+
+}
+
+#cart3 {
+  background-image: url('image/1197518-eclipse-solaire-exceptionnelle-visible-en-france-la-date-a-ne-surtout-pas-manquer.jpg');
+  background-position: center;
+  background-size: cover;
+
+}
+
+#cart2 {
+  background-image: url('image/G5NIFQUSKFFGPH4CPSLNBW4F5A.webp');
+  background-position: center;
+  background-size: cover;
+
+}
+
+.btnlearnmoreEvenements {
+  padding: 0.8rem 1.5rem;
+  background: rgba(1, 1, 1, 0);
+  border: 0.1rem solid white;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 50rem;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20%;
+  margin-left: 60%;
+}
+
+.btnlearnmoreEvenements:hover {
+  background-color: white;
+  color: black;
+}
+
+.btnlearnmoreEvenements h3 {
+  margin-top: 0;
+  font-size: 1em;
+  color: white;
+}
+
+.btnlearnmoreEvenements p {
+  color: white;
+  font-size: 0.8em;
+  padding-top: 10px;
+  line-height: 1.3rem;
+}
+
+.decouverte {
+  background-image: url(image/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL2dldHR5aW1hZ2VzLTEyOTc4Mjg1MTEuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo4Mjh9fX0=.webp);
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 1rem;
+
+}
+
+.deco {
+  border-radius: 30px;
+  width: 40vh;
+  height: 30vh;
+  padding: 1rem 1rem;
+  background: rgba(252, 248, 248, 0.1);
+}
+
+.deco h2 {
+  margin-top: 20%;
+  font-size: 3em;
+  color: white;
+  text-align: right;
+  font-family: 'Odibee Sans', cursive;
+
+}
+
+.deco p {
+  color: white;
+  font-size: 1em;
+  padding-top: 20%;
+  line-height: 1.5rem;
+}
+
+
+
+.cardsEvenements {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  background-color: white;
+  justify-content: space-around;
+  padding: 1rem 1rem;
+}
+
+.cardEvenement {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+  width: 60vh;
+  height: 60vh;
+  padding: 1rem 1rem;
+  background-color: black;
+}
+
+.cardEvenement h3 {
+  font-size: 1em;
+  color: white;
+}
+
+.cardEvenement p {
+  color: white;
+  font-size: 1em;
+  padding-top: 20%;
+  line-height: 1.5rem;
+}
+
+
+
+
+.cardsTemoignages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-around;
+  padding: 2rem 2rem;
+  align-items: center;
+}
+
+.cardTemoignage {
+  width: 60vh;
+  height: 60vh;
+  padding: 1rem 1rem;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10%;
+
+
+}
+
+.imaggym {
+  width: 40%;
+  height: 40%;
+}
+
+.imaggym img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+
+}
+
+.linep {
+  display: flex;
+  flex-direction: row;
+  height: 30%;
+}
+
+.paratem {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.lined {
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+}
+
+.imagprs {
+  width: 60%;
+  height: 100%;
+}
+
+.imagprs img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+
+.sintr {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.imgsnt {
+  width: 100%;
+  height: 100%;
+}
+
+.imgsnt img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+
+
+.faq-section{
+  max-width:80%;
+  margin: 2.5rem ;
+ 
+}
+
+.faq-section h2 {
+  font-size: 2.5em;
+  color: white;
+  font-family: 'Odibee Sans', cursive;
+  margin-left: 15%;
+  margin-bottom: 2%;
+  
+}
+.faq-li{
+  display: flex;
+  justify-content: space-between;
+    border-bottom: 0.1rem white solid;
+align-items: center;
+padding: 1.2rem;
+}
+
+.faq-que {
+  flex: 1;
+    padding-right: 1.2rem;
+    text-align: right;
+}
+.faq-que h3 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color:white;
+    margin: 0;
+}
+.faq-im{
+ cursor: pointer;
+ width: 3rem;
+ height: 3rem;
+ margin: 0 1.2rem;
+}
+
+.faq-im img{
+width: 100%;
+height:100%;
+border-radius: 100%;
+}
+.faq-pa{
+  flex: 1.5;
+  padding-left: 1.25rem;
+    color: black;
+  font-size: 1em;
+  line-height: 1.5rem;
+transition: color 0.3s ease;
+  
+}
+.faq-pa p {
+    margin: 0; 
+}
+.faq-im:hover + .faq-pa {
+  color: grey;
+}
+
+
+.section {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 1s ease-out;
+  padding: 3rem 2rem;
+}
+
+.section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+@media (max-width: 48em) {
+
+    .bannnercontenthome h1 {
+        font-size: 2.8rem;
+    }
+
+    .bannnercontenthome p {
+        font-size: 1.6rem;
+    }
+
+    .titrediv {
+        font-size: 2.2rem;
+        margin-left: 5%;
+    }
+
+    .divshadowMars {
+        width: 90%;
+        margin-left: 5%;
+        padding: 1rem;
+    }
+
+    .divshadowhometext h3 {
+        font-size: 2rem;
+    }
+
+    .decouverte {
+
+        height: auto; 
+        flex-direction: column;
+        padding: 2rem 1rem;
+    }
+
+    .deco {
+        width: 90%;
+        height: auto;
+    }
+
+    .deco h2 {
+        font-size: 3rem;
+        text-align: center;
+    }
+    
+    .deco p {
+        text-align: center;
+        padding-top: 1rem;
+    }
+    
+  
+    .cardTemoignage {
+        width: 90%;
+        height: auto;
+    }
+
+
+    .faq-section {
+        max-width: 95%;
+        margin: 2rem auto;
+    }
+
+    .faq-li {
+        flex-wrap: wrap;
+        padding: 1rem 0.5rem;
+    }
+    
+    .faq-que, .faq-pa {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        text-align: left; 
+        width: 85%;
+    }
+
+    .faq-im {
+        margin: 0;
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    
+    .faq-que {
+        text-align: left;
+        padding-right: 0;
+    }
+    
+    .faq-pa {
+        width: 100%;
+        padding-top: 1rem;
+    }
+}
