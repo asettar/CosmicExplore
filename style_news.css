@@ -19,7 +19,7 @@
 }
 
 .news_hero_section{
-    background-image: url(images/news_banner.png);
+    background-image: url(pictures/news/news_banner.png);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -28,6 +28,7 @@
     align-items: center;
     justify-content: center;
     margin: 0 0 40px 0;
+    margin-top: 100px;
 }
 
 .hero_div{
@@ -85,7 +86,7 @@
 
 .recent_event_card1{
     padding: 70px 30px ;
-    background-image: url(images/news_card1.png) ;
+    background-image: url(pictures/news/news_card1.png) ;
 }
 
 .recent_event_card1 h3{
@@ -101,7 +102,7 @@
 
 .recent_event_card2{
     padding: 70px 30px ;
-    background-image: url(images/news_card2.png) ;
+    background-image: url(pictures/news/news_card2.png) ;
 }
 
 .recent_event_card2 h3{
@@ -116,7 +117,7 @@
 
 .recent_event_card3{
     padding: 70px 30px ;
-    background-image: url(images/news_card3.png) ;
+    background-image: url(pictures/news/news_card3.png) ;
 }
 
 .recent_event_card3 h3{
@@ -131,7 +132,7 @@
 
 .recent_event_card4{
     padding: 70px 30px ;
-    background-image: url(images/news_card4.png) ;
+    background-image: url(pictures/news/news_card4.png) ;
 }
 
 .recent_event_card4 h3{
@@ -146,7 +147,7 @@
 
 .recent_event_card5{
     padding: 70px 30px ;
-    background-image: url(images/news_card5.png) ;
+    background-image: url(pictures/news/news_card5.png) ;
 }
 
 .recent_event_card5 h3{
@@ -161,7 +162,7 @@
 
 .recent_event_card6{
     padding: 70px 30px ;
-    background-image: url(images/news_card6.png) ;
+    background-image: url(pictures/news/news_card6.png) ;
 }
 
 .recent_event_card6 h3{
@@ -181,6 +182,7 @@
     background-color: #fff;
     margin: 0 0px ;
     padding: 0 0 0 0;
+    margin-bottom: 80px;
 }
 
 .event_calendar_section h2{
