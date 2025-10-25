@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulaire d'inscription</title>
+    <link rel="stylesheet" href="signup.css" />
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style_catalog.css"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+        <nav class="nav-wrap">
+            <img src="pictures/logo.jpg" alt="">
+            
+            <div class = "header-icons">
+                <img src="pictures/icons/insta.png" alt="">
+                <img src="pictures/icons/twitter.png" alt="">
+                <img src="pictures/icons/Be.png" alt="">
+            </div>
+            <ul class="navbar-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="catalog.html">CATALOG</a></li>
+                <li><a href="mission.html">MISSION</a></li>
+                <li><a href="news.html">NEWS</a></li>
+                <li><a href="signup.html">SIGN-UP</a></li>
+            </ul>
+            <div class = "burger-lang">
+                <select name="language" class = "header-select">
+                    <option value="English">English</option>
+                    <option value="French">French</option>
+                    <option value="Spanish">Spanish</option>
+                    <option value="Arabic">Arabic</option>
+                </select>
+                <a href="#" onclick="toggleSection()"><img src="pictures/icons/Menu.png" alt="" class = "burger-img"></a>
+            </div>
+        </nav>
+        <div class = "menu">
+            <a href="#" onclick="removeSection()"><img src="pictures/icons/Menu.png" alt="" class = "burger-img"></a>
+            <ul class="navbar-links-hidden">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="catalog.html">CATALOG</a></li>
+                <li><a href="mission.html">MISSION</a></li>
+                <li><a href="news.html">NEWS</a></li>
+                <li><a href="signup.html">SIGN-UP</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- MAIN BANNER -->
+    <section class="banner" id="banner">
+      <div class="banner-overlay"></div>
+      <div class="banner-content">
+        <h1>Join Our Community</h1>
+        <p>
+          Sign up today and start your journey among the stars. Connect, learn,
+          and explore with passionate space enthusiasts.
+        </p>
+        <a href="#signUp"><button class="btn">Sign Up</button></a>
+      </div>
+    </section>
+
+    <div class="container" id="signUp">
+      <div class="form-wrapper">
+        <form action="#" method="POST">
+          <div class="grid">
+            <div class="field full">
+              <label for="first-name">First Name</label>
+              <input type="text" id="first-name" name="first-name" />
+            </div>
+            <div class="field full">
+              <label for="last-name">Last Name</label>
+              <input type="text" id="last-name" name="last-name" />
+            </div>
+            <div class="field full">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" />
+            </div>
+            <div class="field full">
+              <label for="location">Location</label>
+              <input type="text" id="location" name="location" />
+            </div>
+          </div>
+
+          <div class="section">
+            <h3>Experience Level</h3>
+            <div class="options">
+              <label
+                ><input type="radio" name="experience" value="debutant" />
+                Beginner</label
+              >
+              <label
+                ><input type="radio" name="experience" value="intermediaire" />
+                Intermediate</label
+              >
+              <label
+                ><input type="radio" name="experience" value="expert" />
+                Expert</label
+              >
+            </div>
+          </div>
+
+          <div class="section">
+            <h3>Areas of Interest</h3>
+            <div class="options-grid">
+              <label
+                ><input
+                  type="checkbox"
+                  name="interests[]"
+                  value="astrophysique"
+                />
+                Astrophysics</label
+              >
+              <label
+                ><input type="checkbox" name="interests[]" value="cosmologie" />
+                Cosmology</label
+              >
+              <label
+                ><input type="checkbox" name="interests[]" value="randonnee" />
+                Hiking</label
+              >
+              <label
+                ><input type="checkbox" name="interests[]" value="astronomie" />
+                Astronomy Observation</label
+              >
+              <label
+                ><input type="checkbox" name="interests[]" value="histoire" />
+                History of Humanity</label
+              >
+              <label
+                ><input
+                  type="checkbox"
+                  name="interests[]"
+                  value="technologie"
+                />
+                Space Technology</label
+              >
+            </div>
+          </div>
+
+          <div class="section">
+            <h3>Subscription Option</h3>
+            <div class="options">
+              <label
+                ><input type="radio" name="subscription" value="gratuit" />
+                Free</label
+              >
+              <label
+                ><input type="radio" name="subscription" value="premium" />
+                Premium (5€/mois)</label
+              >
+              <label
+                ><input type="radio" name="subscription" value="familial" />
+                Premium (15€/mois)</label
+              >
+            </div>
+          </div>
+
+          <div class="checkbox-field">
+            <input type="checkbox" id="terms" name="terms" />
+            <label for="terms">I agree to all terms and conditions</label>
+          </div>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Support Methods -->
+        <section class="support-methods">
+            <div class="method-card">
+                <div class="method-icon">            
+                    <img src="pictures/chat2.png" alt="Email" />
+                </div>
+                <h3>Email</h3>
+                <p>For any inquiries or assistance, feel free to contact us via email. We are here to help with your questions.</p>
+            </div>
+
+            <div class="method-card">
+                <div class="method-icon">
+                    <img src="pictures/chat1.png" alt="Live Chat" />
+                </div>
+                <h3>Live Chat</h3>
+                <p>Connect with us through live chat for instant support and answers to your questions. We're here to help you!</p>
+                <a href="#" class="method-link">Click Here ›</a>
+            </div>
+
+            <div class="method-card">
+                <div class="method-icon">
+                    <img src="pictures/chat3.png" alt="Phone" />
+                </div>
+                <h3>Phone</h3>
+                <p>Call us now for immediate assistance! Our team is ready to help you with any inquiries or support you need.</p>
+                <a href="tel:+911234567890" class="method-link">+91 1234567890</a>
+            </div>
+        </section>
+    
+    <!-- footer_page -->
+     <footer>
+        <img src="pictures/Footer/logo.png" class="logo_footer" alt="logo">
+        <div class="media_contact">
+            <img src="pictures/Footer/Linkedin_f.png" alt="Social Network"/>
+            <img src="pictures/Footer/Facebook_f.png" alt="Social Network"/>
+            <img src="pictures/Footer/Twitter_f.png" alt="Social Network"/>
+        </div>
+        <div class="Container_footer">
+            <table>
+                <tr>
+                    <th><b>Legal</b></th>
+                    <th><b>Information</b></th>
+                    <th><b>Company</b></th>
+                </tr>
+                <tr>
+                    <td>Terms of Service</td>
+                    <td><a href="index.html#faq">FAQ</a></td>
+                    <td><a href="index.html">About Us</a></td>
+                </tr>
+                <tr>
+                    <td>Privacy Policy</td>
+                    <td><a href="catalog.html">Catalog</a></td>
+                    <td><a href="news">News</a></td>
+                </tr>
+                <tr>
+                    <td>Cookies</td>
+                    <td><a href="index.html#subscribe">Help</a></td>
+                    <td><a href="signup.html">Sign up</a></td>
+                </tr>
+            </table>
+        </div>
+    </footer>
+
+  </body>
+</html>
