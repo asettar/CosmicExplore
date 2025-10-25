@@ -45,10 +45,21 @@
             </ul>
         </div>
     </header>
-    <section style="border: 1px solid red;" class="hero_section">
+    <section class="hero_section_catalog">
         <h1>Celestial Catalog</h1>
+        <p>Navigate the infinite beauty of stars, planets, and galaxies beyond"</p>
+        <a href="#catalog"><button>Explore more</button></a>
     </section>
-    <section>
+    <section id="catalog">
+     <!-- filter barner -->
+      <div class="filter_bar">
+        <a href="#planet"><button>Planets & Moons</button></a>
+        <a href="#star"><button>Stars & Constellations</button></a>
+        <a href="#Galaxies"><button>Galaxie</button></a>
+        <a href="#Nebulae"><button>Nebulae</button></a>
+        <a href="#Black Hole"><button>Black Holes</button></a>
+
+      </div>
 
     </section>
     <!-- footer_page -->
@@ -87,3 +98,18 @@
     
 </body>
 </html>
+<script>
+    function toggleSection() {
+        const section = document.querySelector('.menu');
+        // const section = document.querySelector('.menu');
+        const section1 = document.querySelector('.nav-wrap');
+        section.style.display = 'block';
+        section1.style.display = 'none'
+    }
+    function removeSection() {
+        const section = document.querySelector('.menu');
+        const section1 = document.querySelector('.nav-wrap');
+        section.style.display = 'none';
+        section1.style.display = 'flex'
+    }
+</script>
