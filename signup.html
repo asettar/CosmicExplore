@@ -235,3 +235,19 @@
 
   </body>
 </html>
+
+<script>
+    function toggleSection() {
+        const section = document.querySelector('.menu');
+        // const section = document.querySelector('.menu');
+        const section1 = document.querySelector('.nav-wrap');
+        section.style.display = 'block';
+        section1.style.display = 'none'
+    }
+    function removeSection() {
+        const section = document.querySelector('.menu');
+        const section1 = document.querySelector('.nav-wrap');
+        section.style.display = 'none';
+        section1.style.display = 'flex'
+    }
+</script>
